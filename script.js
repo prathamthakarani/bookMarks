@@ -46,7 +46,7 @@ function deletebm(url){
     }
   })
   // after delete update a dom
-  localStorage.setItem("bookmarks", JSON.stringify(dataArray));
+  localStorage.setItem("Book_Marks", JSON.stringify(dataArray));
   fetchLocalStorage();
 }
 
